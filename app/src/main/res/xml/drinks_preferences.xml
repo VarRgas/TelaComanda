@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Drinks"
+        app:widgetLayout="@color/black"
+        app:icon="@color/black">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="check_box_Mojito"
+            android:title="Mojito" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="check_box_Dry"
+            android:title="Dry martini" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="check_box_Caipirinha_c"
+            android:title="Caipirinha/cachaça" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="check_box_Caipirinha_v"
+            android:title="Caipirinha/vodka" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="check_box_Cosmopolitan"
+            android:title="Cosmopolitan" />
+    </PreferenceCategory>
+</PreferenceScreen>
